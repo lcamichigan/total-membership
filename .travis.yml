@@ -2,10 +2,10 @@ language: generic
 os: osx
 
 install:
-  - brew install python
+  - HOMEBREW_NO_AUTO_UPDATE=1 brew install python3
 
 before_script:
-  - python --version
+  - python3 --version
 
 script:
-  - python make_total_membership_csv.py
+  - python3 make_total_membership_csv.py
