@@ -1,0 +1,16 @@
+# https://www.appveyor.com/docs/appveyor-yml
+
+install:
+  # Use Python 3.
+  - set PATH=C:\Python36-x64;C:\Python36-x64\Scripts;%PATH%
+
+build_script:
+  - python --version
+  - python make_total_membership_csv.py
+
+test: off
+
+artifacts:
+  - path: total-membership.csv
+
+skip_tags: true

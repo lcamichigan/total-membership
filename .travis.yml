@@ -1,0 +1,11 @@
+language: generic
+os: osx
+
+install:
+  - brew install python
+
+before_script:
+  - python --version
+
+script:
+  - python make_total_membership_csv.py
