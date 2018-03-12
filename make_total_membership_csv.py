@@ -8,8 +8,8 @@ changes_by_date = {}
 with open('member-info.csv') as file:
     for row in csv.DictReader(file):
         initiation_number = int(row['Initiation No.'])
-        # Sigma numbers between 365 and 474 are for former ΘΚΝs who were
-        # initiated as alumni.
+        # Sigma numbers between 365 and 474 are for former ΘΚΝs initiated as
+        # alumni.
         if 365 <= initiation_number and initiation_number <= 474:
             continue
 
