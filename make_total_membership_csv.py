@@ -39,7 +39,7 @@ with open('member-info.csv') as file:
 
         # Increment the change in membership on the initiation date.
         changes_by_date[initiation_date] = changes_by_date.get(initiation_date, 0) + 1
-        # Derement the change in membership on the exit date.
+        # Decrement the change in membership on the exit date.
         changes_by_date[exit_date] = changes_by_date.get(exit_date, 0) - 1
 
 # Sort the changes by date.
