@@ -23,3 +23,9 @@ The easiest way to install Python 3 on macOS is probably through
 [Homebrew](https://brew.sh). To install Homebrew, follow the instructions at
 https://brew.sh. After you install Homebrew, enter `brew install python` in
 Terminal.
+
+The script creates a CSV file named total-membership.csv. You can analyze this
+file using a variety of tools. For example, you can visualize it as a
+[chart](https://support.google.com/docs/answer/63728) in a Google spreadsheet:
+
+<img width="587" alt="total-membership" src="https://user-images.githubusercontent.com/14102861/37402817-4312e776-2763-11e8-90d0-303fb7477b2a.png">
