@@ -28,4 +28,4 @@ membership by date. You can analyze the CSV file using a variety of tools. For
 example, you can visualize it as a
 [chart](https://support.google.com/docs/answer/63728) in a Google spreadsheet:
 
-<img width="587" alt="total-membership" src="https://user-images.githubusercontent.com/14102861/37402817-4312e776-2763-11e8-90d0-303fb7477b2a.png">
+<img width="586" alt="total-membership" src="https://user-images.githubusercontent.com/14102861/38867589-6b02adc4-4212-11e8-9679-ceef384a4b2f.png">

@@ -32,6 +32,10 @@ with open('member-info.csv') as file:
         # Commencement, which at U-M is usually at the end of April or the
         # beginning of May.
         exit_date = datetime(class_year, 5, 1)
+        # If the exit date is before the initiation date, the member is probably
+        # an honorary initiate.
+        if exit_date < initiation_date:
+            continue
         # If the initiation number belongs to an expelled member, assume the
         # expulsion occurred halfway between initiation and graduation.
         if row['Expelled/Suspended']:
