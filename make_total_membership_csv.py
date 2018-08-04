@@ -13,6 +13,11 @@ with open('member-info.csv') as file:
         if 365 <= initiation_number and initiation_number <= 474:
             continue
 
+        # TODO: Fraternity records show that the member with initiation number
+        # 1345 has the exact same name as the one with initiation number 1344.
+        # This seems like too much of coincidence, and it’s possible that
+        # 1345 was skipped.
+
         class_year = int(row['Estimated Class Year'])
 
         initiation_date = row['Initiation Date']
