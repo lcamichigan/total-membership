@@ -2,7 +2,7 @@
 
 install:
   # Use Python 3.
-  - set PATH=C:\Python36-x64;C:\Python36-x64\Scripts;%PATH%
+  - set PATH=C:\Python37-x64;C:\Python37-x64\Scripts;%PATH%
 
 build_script:
   - python --version
