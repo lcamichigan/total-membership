@@ -6,10 +6,16 @@
 ## Running the Script
 
 To run [make_total_membership_csv.py](make_total_membership_csv.py), enter in
-PowerShell or Command Prompt on Windows, or in Terminal on macOS:
+PowerShell or Command Prompt on Windows:
 
 ```sh
 python make_total_membership_csv.py
+```
+
+or in Terminal on macOS:
+
+```sh
+./make_total_membership_csv.py
 ```
 
 Note that the script requires Python 3.
